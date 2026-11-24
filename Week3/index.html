@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno the Tuxedo Cat</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #590d22;
+            background-image:
+                radial-gradient(#ffccd5 1.5px, transparent 1.5px),
+                radial-gradient(#ffccd5 1.5px, #590d22 1.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Georgia, serif;
+        }
+
+        .card {
+            width: 500px;
+            height: 750px;
+            box-sizing: border-box;
+            background-color: #fff0f3;
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        .main-picture {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            object-position: center;
+            background-color: #fff0f3;
+            border: 3px solid #590d22;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto 12px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'Brygada 1918', serif;
+            color: #590d22;
+            font-size: 32px;
+            margin: 5px 0 10px;
+        }
+
+        p {
+            color: #590d22;
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 8px 0 14px;
+        }
+
+        .photo-collection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 14px;
+        }
+
+        .photo-collection img {
+            width: 125px;
+            height: 125px;
+            object-fit: contain;
+            object-position: center;
+            background-color: #fff0f3;
+            border: 3px solid #590d22;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            color: #590d22;
+            font-size: 14px;
+            line-height: 1.5;
+            text-align: left;
+            padding-left: 22px;
+            margin-top: 10px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .strawberry-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 14px 28px;
+            background-color: #e63950;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border: 3px solid #a4133c;
+            border-radius: 50% 50% 45% 45%;
+            box-shadow: 0 4px 0 #a4133c;
+            transition: background-color 0.3s;
+        }
+
+        .strawberry-button:hover {
+            background-color: #ff8fa3;
+        }
+
+        .strawberry-button:visited {
+            color: white;
+        }
+
+        .strawberry-button:active {
+            box-shadow: 0 1px 0 #a4133c;
+            transform: translateY(3px);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img class="main-picture"
+             src="bruno1.jpg"
+             alt="Bruno the tuxedo cat">
+
+        <h1>Bruno the Tuxedo Cat</h1>
+
+        <p>
+            A little collection of the most hilarious pictures
+            of Bruno, the awesome cat!
+        </p>
+
+        <div class="photo-collection">
+
+            <img src="bruno2.jpg" alt="Funny picture of Bruno">
+
+            <img src="bruno3.jpg" alt="Another funny picture of Bruno">
+
+        </div>
+
+        <ul>
+            <li>Bruno is a Mexican guy from Sinaloa.</li>
+            <li>Loves Chuchurus like his personal catnip.</li>
+            <li>Bruno can stand on his two feet!</li>
+        </ul>
+
+        <a class="strawberry-button"
+           href="https://en.wikipedia.org/wiki/Tuxedo_cat"
+           target="_blank">
+            🍓 Explore Tuxedo Cats 🍓
+        </a>
+
+    </div>
+
+</body>
+</html>
